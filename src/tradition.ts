@@ -54,3 +54,6 @@ const test_c_v = actResolveKorean(["햄버거 너무 맛있다.", "오늘은 햄
 
 console.log(test_k_c, test_c_v);
 console.log((test_k_c > test_c_v) ? "첫번째 글의 연관성이 더 높음" : (test_k_c < test_c_v) ? "두번째 글의 연관성이 더 높음" : "두글의 연관성이 똑같음");
+
+const test = actResolveKorean(["문장1", "문장2"]);
+const broken_word = resolvesplit("단어");
