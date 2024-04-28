@@ -2,7 +2,7 @@
     "compilerOptions": {
         "target": "ES2020",
         "module": "NodeNext",
-        "lib": ["ES2016", "ES6", "DOM", "ES5"],
+        "lib": ["ES2019", "ES6", "DOM", "ES5"],
         "noImplicitAny": true,
         "strictNullChecks": true,
         "strict": true,

@@ -64,3 +64,26 @@ export function actCleanNouns(recv: string): string[] {
     const NS = clstn.split(/\s+/).filter(w => w.trim() !== "");
     return NS;
 }
+
+export function actSplit(revc: string): string[] {
+    const ncp = revc.replace(/\s+/g, "");
+    const ch = Array.from(ncp);
+
+    return ch;
+}
+
+export function actArraySplit(recv: string[]): string[] {
+    const sph = recv.map(actSplit).flat();
+
+    return sph;
+}
+
+// export function ArrayIncludes(arr: string[], arr1: string[]) {
+//     arr.forEach(r => {
+//         if (arr1.includes(r)) {
+//             return true;
+//         }
+//     });
+
+//     return false;
+// }
