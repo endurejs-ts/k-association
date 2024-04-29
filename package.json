@@ -1,0 +1,10 @@
+{
+  "name": "k-association",
+  "version": "0.0.1",
+  "description": "글과 문장 속에 연관성과 상관관계를 찾고 분석해주는 라이브러리입니다. ✌",
+  "main": "index.d.ts",
+  "scripts": {},
+  "keywords": ["typescript", "ts", "global"],
+  "author": "resforx",
+  "license": "MIT"
+}
